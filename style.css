@@ -4,6 +4,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    justify-content: center;
   }
   
   li {
@@ -18,12 +20,15 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li a:hover {
     background-color: #111;
   }
-  
-  .active {
-    background-color: #04AA6D;
+  .div1{
+    margin-top:10px ;
   }
+  
+  
+  
+  
 
 
