@@ -141,7 +141,7 @@ font-size: large;
   position: absolute;
   top: 25%;
   left: 40%;
-  font-size: large;
+  /* font-size: large; */
 
 }
 .b6{
@@ -153,7 +153,7 @@ font-size: large;
   position: absolute;
   top: 25%;
   left: 35%;
-  font-size: large;
+  /* font-size: large; */
 }
 
 .b7{
@@ -165,7 +165,7 @@ padding: 10px 15px;
 position: absolute;
 top: 25%;
 left:50%;
-font-size: large;
+/* font-size: large; */
 
 
 }
@@ -178,46 +178,91 @@ font-size: large;
   color: white;
   border-radius: 40px;
   border: 0px;
-  padding: 14px 25px;
+  padding: 8px 14px;
   position: absolute;
-  top: 30%;
-  left: 43%;
-  font-size: large;
+  top: 28%;
+  left: 37%;
+  /* font-size: large; */
   
   
 
 }
 .b10{
+  
   color: black;
   border-radius: 25px;
   border: 0px;
-  padding: 14px 25px;
+  padding: 8px 14px;
   position: absolute;
-  top: 30%;
-  right: 44%;
-  font-size:large ;
+  top: 28%;
+  right: 42%;
+  /* font-size:large ; */
 }
 .b11{
-  background-color:white;
-  color: black;
+  background-color:rgb(41, 171, 223);
+  color: rgb(232, 234, 240);
   border-radius: 40px;
-  border: 1px solid (rgb(218, 229, 233));;
-  padding: 10px 15px;
+  border: 1px solid black;
+  padding: 8px 14px;
   position: absolute;
   top: 25%;
   left: 35%;
-  font-size: large;
+  /* font-size: large; */
 }
 .b12{
-  background-color: rgba(240, 248, 255, 0);
-  color:white;
+  background-color: rgb(10, 175, 240);
+  color:black;
 border-radius: 25px;
-border: 1px solid rgb(223, 236, 241);
-padding: 10px 15px;
+border: 1px solid rgb(7, 77, 227);
+padding: 8px 14px;
 position: absolute;
 top: 25%;
 left:50%;
-font-size: large;
+/* font-size: large; */
+}
+.b12:hover{
+  background-color: rgb(10, 175, 240) ;
+  color: white;
+}
+.b13{
+  background-color:black;
+  color:white;
+  border-radius: 40px;
+  border: 1px solid black;
+  padding: 8px 14px;
+  position: absolute;
+  top: 24%;
+  left: 39%;
+  /* font-size: large;  */
+  
+}
+.b14{
+  color: black;
+  background-color: #11111100;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 8px 14px;
+  position: absolute;
+  top: 24%;
+  right: 42%;
+  /* font-size: ; */
+
+}
+.b14:hover{
+  background-color: black;
+  color: rgb(255, 247, 247);
+
+}
+.b15{
+  background-color:rgb(41, 171, 223);
+  color: white;
+  border-radius: 40px;
+  border: 0px;
+  padding: 8px 14px;
+  position: absolute;
+  top: 25%;
+  left: 41%;
+  /* font-size: large;  */
 }
   
   
