@@ -6,6 +6,7 @@ ul {
     background-color: #333;
     display: flex;
     justify-content: center;
+    font-size: small;
   }
   
   li {
@@ -21,7 +22,7 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color:black;
   }
   .div1{
     margin-top:10px ;
@@ -29,7 +30,21 @@ ul {
   }
   .div2{
     text-align: center;
+    background-color: black;
+    color: white;
+    font-size: medium;
   }
+  .div2 bb:link{
+    color: rgba(219, 223, 229, 0.894);
+    
+    
+  }
+  /* .div2 a{ */
+    
+  /* } */
+  /* .div2:hover{ */
+    /* background-color: bl; */
+  /* } */
   .div3{
     margin-top: 10px;
   }
@@ -50,9 +65,9 @@ ul {
     border: 0px;
     padding: 14px 25px;
     position: absolute;
-    top: 30%;
+    top: 29%;
     left: 43%;
-    font-size: large;
+    font-size: medium;
     
   }
 .b2{
@@ -61,9 +76,9 @@ ul {
   border: 0px;
   padding: 14px 25px;
   position: absolute;
-  top: 30%;
-  right: 44%;
-  font-size:large ;
+  top: 29%;
+  right: 45%;
+  font-size:medium ;
 
 }
 .b2:hover{
@@ -83,7 +98,7 @@ padding: 14px 25px;
 position: absolute;
 top: 83%;
   right: 48%;
-  font-size: large;
+  font-size: medium;
 
 
 }
@@ -103,7 +118,7 @@ top: 83%;
   position: absolute;
   top: 29%;
   left: 43%;
-  font-size: large;
+  font-size:medium;
 
 }
 .b5{
@@ -113,8 +128,8 @@ border: 1px solid rgb(41, 171, 223);
 padding: 14px 25px;
 position: absolute;
 top: 29%;
-right: 44%;
-font-size: large;
+right: 45%;
+font-size: medium;
 
 
 }
@@ -152,7 +167,7 @@ font-size: large;
   padding: 10px 15px;
   position: absolute;
   top: 25%;
-  left: 35%;
+  left: 38%;
   /* font-size: large; */
 }
 
@@ -181,39 +196,44 @@ left:50%;
   padding: 8px 14px;
   position: absolute;
   top: 28%;
-  left: 37%;
+  left: 40%;
   /* font-size: large; */
   
   
 
 }
 .b10{
+  background-color: black;
   
-  color: black;
+  color:rgb(10,175,240);
   border-radius: 25px;
-  border: 0px;
+  border: 1px solid rgb(10,175,240);
   padding: 8px 14px;
   position: absolute;
   top: 28%;
-  right: 42%;
+  right: 43%;
   /* font-size:large ; */
 }
+.b10:hover{
+  background-color:rgb(10,175,240);
+  color:white;
+}
 .b11{
-  background-color:rgb(41, 171, 223);
+  background-color:rgb(10, 175, 240);
   color: rgb(232, 234, 240);
   border-radius: 40px;
   border: 1px solid black;
   padding: 8px 14px;
   position: absolute;
   top: 25%;
-  left: 35%;
+  left: 38%;
   /* font-size: large; */
 }
 .b12{
-  background-color: rgb(10, 175, 240);
-  color:black;
+  background-color: white;
+  color:rgb(10,175,240);
 border-radius: 25px;
-border: 1px solid rgb(7, 77, 227);
+border: 1px solid black;
 padding: 8px 14px;
 position: absolute;
 top: 25%;
